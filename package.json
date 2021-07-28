@@ -10,7 +10,7 @@
     "postinstall": "husky install"
   },
   "lint-staged": {
-    "*.{js, jsx, ts, tsx, md, html}": [
+    "*.{js,jsx,ts,tsx,md,html}": [
       "yarn lint --fix"
     ]
   },
