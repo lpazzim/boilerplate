@@ -6,11 +6,6 @@ type Props = {
   title: string
 }
 
-const bla = 'var'
-const bla2 = 'var'
-const bla3 = 'var'
-const bla4 = 'var'
-
 export default function Home({ title = 'React Avançado!' }: Props) {
   return (
     <div className={styles.container}>
