@@ -17,7 +17,8 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "eslint src --max-warnings=0 --fix" , "jest --bail"
+      "eslint src --max-warnings=0 --fix",
+      "jest --findRelatedTests --bail"
     ]
   },
   "dependencies": {
